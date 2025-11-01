@@ -5,7 +5,6 @@
         public int id { get; set; }
         public string item_name { get; set; }
         public string description { get; set; }
-        public decimal Price { get; set; }
         public string image { get; set; }
     }
 }
