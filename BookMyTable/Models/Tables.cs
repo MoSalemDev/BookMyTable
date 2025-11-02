@@ -1,8 +1,12 @@
-﻿namespace BookMyTable.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace BookMyTable.Models
 {
     public class Tables
     {
         public int id { get; set; }
+
+        [Required]
         public int table_number { get; set; }
         public int capacity { get; set; }
         public bool avability { get; set; }
